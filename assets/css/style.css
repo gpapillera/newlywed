@@ -12,37 +12,38 @@
 
 @font-face {
   font-family: "Gistesy";
-  src: url("/assets/font/Gistesy/Gistesy.ttf") format('truetype');
+  src: url("https://github.com/gpapillera/bellenbal/tree/main/assets/font/Gistesy") format('truetype'); /*FOR DEPLOYMENT DIRECTORY*/
+  /* src: url("/assets/font/Gistesy/Gistesy.ttf") format('truetype'); ##FOR DESKTOP DIRECTORY## */
 }
 
 @font-face {
   font-family: "Joshico";
-  src: url("/assets/font/Joshico/Joshico-Regular.ttf") format('truetype');
+  src: url("https://github.com/gpapillera/bellenbal/tree/main/assets/font/Joshico") format('truetype');
 }
 
 @font-face {
   font-family: "Amsterdam";
-  src: url("/assets/font/Amsterdam_four/Amsterdam_four.ttf") format('truetype');
+  src: url("https://github.com/gpapillera/bellenbal/tree/main/assets/font/Amsterdam_four") format('truetype');
 }
 
 @font-face {
   font-family: "Amsterdam Two_ttf";
-  src: url("/assets/font/Amsterdam_two/Amsterdam_two.ttf") format('truetype');
+  src: url("https://github.com/gpapillera/bellenbal/tree/main/assets/font/Amsterdam_two/Amsterdam_two.ttf") format('truetype');
 }
 
 @font-face {
   font-family: "Metropolis-Light";
-  src: url("/assets/font/Avenir/Metropolis-Light.otf") format('opentype');
+  src: url("https://github.com/gpapillera/bellenbal/tree/main/assets/font/Avenir/Metropolis-Light.otf") format('opentype');
 }
 
 @font-face {
   font-family: "Metropolis-Medium";
-  src: url("/assets/font/Avenir/Metropolis-Medium.otf") format('opentype');
+  src: url("https://github.com/gpapillera/bellenbal/tree/main/assets/font/Avenir/Metropolis-Medium.otf") format('opentype');
 }
 
 @font-face {
   font-family: "Madelyn";
-  src: url("/assets/font/Madelyn/Madelyn-Trial-Regular.ttf") format('truetype');
+  src: url("https://github.com/gpapillera/bellenbal/tree/main/assets/font/Madelyn/Madelyn-Trial-Regular.ttf") format('truetype');
 }
 
 
