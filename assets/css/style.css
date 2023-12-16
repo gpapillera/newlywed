@@ -12,18 +12,18 @@
 
 @font-face {
   font-family: "Gistesy";
-  src: url("https://github.com/gpapillera/bellenbal/tree/main/assets/font/Gistesy") format('truetype'); /*FOR DEPLOYMENT DIRECTORY*/
+  src: url("https://github.com/gpapillera/bellenbal/tree/main/assets/font/Gistesy/Gistesy.ttf") format('truetype'); /*FOR DEPLOYMENT DIRECTORY*/
   /* src: url("/assets/font/Gistesy/Gistesy.ttf") format('truetype'); ##FOR DESKTOP DIRECTORY## */
 }
 
 @font-face {
   font-family: "Joshico";
-  src: url("https://github.com/gpapillera/bellenbal/tree/main/assets/font/Joshico") format('truetype');
+  src: url("https://github.com/gpapillera/bellenbal/tree/main/assets/font/Joshico/Joshico-Regular.ttf") format('truetype');
 }
 
 @font-face {
   font-family: "Amsterdam";
-  src: url("https://github.com/gpapillera/bellenbal/tree/main/assets/font/Amsterdam_four") format('truetype');
+  src: url("https://github.com/gpapillera/bellenbal/tree/main/assets/font/Amsterdam_four/Amsterdam_four.ttf") format('truetype');
 }
 
 @font-face {
