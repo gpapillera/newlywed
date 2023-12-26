@@ -98,7 +98,7 @@
   })
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with ofset on links with a class name .scrollto
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
@@ -170,7 +170,7 @@
   }
 
   /**
-   * Porfolio isotope and filter
+   * Portfolio isotope and filter
    */
   window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
@@ -198,6 +198,7 @@
     }
 
   });
+
 
   /**
    * Initiate portfolio lightbox 
@@ -231,6 +232,25 @@
       clickable: true
     }
   });
+
+// *********More-Info***********
+ /**
+   * Initiate moreInfo lightbox 
+   */
+const moreInfoLightbox = GLightbox({
+  selector: '.moreInfo-lightbox'
+});
+
+/**
+  * Initiate moreInfo details lightbox 
+  */
+const moreInfoDetailsLightbox = GLightbox({
+  selector: '.moreInfo-details-lightbox',
+  width: '90%',
+  height: '90vh'
+});
+
+
 
   /**
    * Testimonials slider
