@@ -200,6 +200,25 @@
   });
 
 
+  // *********BMs and GMs Attire***********
+ /**
+   * Initiate moreInfo lightbox 
+   */
+const gmnbmLightbox = GLightbox({
+  selector: '.gmnbm-lightbox'
+});
+
+/**
+  * Initiate moreInfo details lightbox 
+  */
+const gmnbmDetailsLightbox = GLightbox({
+  selector: '.gmnbm-details-lightbox',
+  width: '90%',
+  height: '90vh'
+});
+
+
+
   /**
    * Initiate portfolio lightbox 
    */
