@@ -199,6 +199,23 @@
 
   });
 
+  // *********BMs and GMs Attire***********
+ /**
+   * Initiate moreInfo lightbox 
+   */
+ const emailLightbox = GLightbox({
+  selector: '.email-lightbox'
+});
+
+/**
+  * Initiate moreInfo details lightbox 
+  */
+const emailDetailsLightbox = GLightbox({
+  selector: '.email-details-lightbox',
+  width: '90%',
+  height: '90vh'
+});
+
 
   // *********BMs and GMs Attire***********
  /**
