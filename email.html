@@ -65,14 +65,15 @@
               <ul>
                 <li><strong>Email Address</strong>: belleampersandbal@gmail.com</li>
                 <li><strong>Subject</strong>: VnG's Becoming One</li>
-                <li><strong>Email Template</strong>: <em>Copy-paste this into email app.</em>
-                  <p>Hello Bride & Groom!</p>
-                  <p></p>
-                  <p>This is [name],</p>
-                   <p></p>
-                  <p>Able to attend? Yes/No</p>
-                   <p></p>
-                  <p>[Prayer and Message/Gift(Optional)]</p>
+                <li><strong>Email Template</strong>: <button id="copy-button"><strong>Copy 📋</strong></button>
+                  <textarea type="text" id="emailtemp" >Hello Bride & Groom!
+
+This is [name],
+
+Able to attend? Yes/No
+
+[Prayer and Message/Gift(Optional)]
+</textarea>
                 </li>
               </ul>
             </div>
@@ -81,8 +82,26 @@
               <p>
                 Use the template provided. Inform us if you are able to attend and also leave us a prayer and message or gift.
               </p>
+              <p>Click the button to COPY the template.</p>
               <p><em>Alam nating hindi lahat ay may pagakakataon na makapagsalita sa araw ng celebration, kaya maaaring nyo pong sabihin ang lahat ng nais nyong sabihin sa pamamagitan ng paraang ito.</em></p>
             </div>
+
+            <script>
+              // *********Copy Function**********
+
+              document.getElementById("copy-button").addEventListener("click", copy_password);
+
+              function copy_password() {
+                  var copyText = document.getElementById("emailtemp");
+                  var textArea = document.createElement("textarea");
+                  textArea.value = copyText.textContent;
+                  document.body.appendChild(textArea);
+                  textArea.select();
+                  document.execCommand("Copy");
+                  textArea.remove();
+              }
+            </script>
+
           </div>
 
         </div>

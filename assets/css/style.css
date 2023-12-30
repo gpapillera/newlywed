@@ -946,6 +946,12 @@ section {
 /*--------------------------------------------------------------
 # More Info.
 --------------------------------------------------------------*/
+
+/* Gmail Template */
+#emailtemp {
+  display: none;
+}
+
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;

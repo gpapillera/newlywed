@@ -269,6 +269,7 @@ const gmnbmDetailsLightbox = GLightbox({
     }
   });
 
+
 // *********More-Info***********
  /**
    * Initiate moreInfo lightbox 
@@ -305,6 +306,8 @@ const moreInfoDetailsLightbox = GLightbox({
       clickable: true
     }
   });
+
+
 
   /**
    * Animation on scroll

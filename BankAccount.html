@@ -63,8 +63,8 @@
               <h3>Bank Information (CIMB)</h3>
               <ul>
                 <li><strong>Account Name</strong>: Glen Papillera</li>
-                <li><strong>Account Number</strong>: <span>20860720960601</span></li>
-                <li><strong>To copy Bank Account number</strong>: Click here 👈🏼</li>
+                <li><strong>Account Number</strong>: <span type="text" id="contctnum">20860720960601</span></li>
+                <li><strong>To copy Bank Account number</strong>: <button id="copy-button"><strong>Click here 👈🏼</strong></button></li>
               </ul>
             </div>
             <div class="portfolio-description">
@@ -75,6 +75,23 @@
               <p>📝 Please leave a NOTES 'Wedding Gift' before sending, thank you!</p>
               <p>❗<em> If button is not functioning well just select number then copy.</em></p>
             </div>
+
+            <script>
+              // *********Copy Function**********
+
+              document.getElementById("copy-button").addEventListener("click", copy_password);
+
+              function copy_password() {
+                  var copyText = document.getElementById("contctnum");
+                  var textArea = document.createElement("textarea");
+                  textArea.value = copyText.textContent;
+                  document.body.appendChild(textArea);
+                  textArea.select();
+                  document.execCommand("Copy");
+                  textArea.remove();
+              }
+            </script>
+
           </div>
 
         </div>
