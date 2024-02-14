@@ -1,10 +1,4 @@
-/**
-* Template Name: MyResume
-* Updated: Nov 17 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -72,6 +66,7 @@
     })
   }
 
+
   /**
    * Back to top button
    */
@@ -87,6 +82,8 @@
     window.addEventListener('load', toggleBacktotop)
     onscroll(document, toggleBacktotop)
   }
+
+
 
   /**
    * Mobile nav toggle
@@ -327,3 +324,31 @@ const moreInfoDetailsLightbox = GLightbox({
   new PureCounter();
 
 })()
+
+
+
+
+// Initialize glightbox
+var lightbox = GLightbox();
+
+// Function to open the lightbox
+function openLightbox() {
+    lightbox.open();
+    // Add a history item for the lightbox
+    history.pushState({lightbox: true}, null);
+}
+
+// Function to close the lightbox
+function closeLightbox() {
+    lightbox.close();
+    // Remove the history item for the lightbox
+    history.back();
+}
+
+// Listen for the popstate event, which is fired when the history changes
+window.addEventListener('popstate', function(event) {
+    // If the history item is the lightbox, close it
+    if (event.state && event.state.lightbox) {
+        closeLightbox();
+    }
+});

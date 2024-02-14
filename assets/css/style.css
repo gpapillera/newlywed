@@ -719,6 +719,11 @@ section {
 /*--------------------------------------------------------------
 # Gift
 --------------------------------------------------------------*/
+
+.btm-border{
+  padding-bottom: 1.5em;
+}
+
 .portfolio .section-title p{
   text-align: justify;
   margin-bottom: .5em;
